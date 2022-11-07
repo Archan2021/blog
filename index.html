@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+
+    <!--favicon link-->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Link to the CSS file -->
+     <link rel="stylesheet" href="style.css">
+
+    <!--link to google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="light-theme">
+    <!--HEADER SECTION-->
+    <header >
+
+        <div class="container">
+
+            <nav class="navbar">
+                <a href="#">
+                    <img src="logo.svg" alt="logo" width="250" class="logo-light">
+                    <img src="logo.svg" alt="logo-dark" width="250" class="logo-dark">
+                </a>
+                <div class="btn-group">
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                </div>
+                    
+                <div class="flex-wrapper">
+                    <ul class="desktop-nav">
+                        <li>
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                    </button>
+                </div> 
+                <div class="mobile-nav ">
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                        </button>
+                        <div class="wrapper">
+                            <p class="h3 nav-title">Main Menu</p>
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="h3 nav-title">Topics</p>
+                            <ul>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Designing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Frontend</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Web Performance</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+<!--HERO SECTION-->
+    <div class="hero">
+        <div class="container">
+            <div class="left">
+                <h1 class="h1">
+                    Hi, I'm <b>Archan</b>.
+                    <br>Web Developer
+                </h1>
+
+                <p class="h3">
+                    Specialized in <abbr title="Accessibility">Front End</abbr>
+                    and  UI Designing
+                  </p>
+                  <div class="btn-group">
+                    <a href="#" class="btn btn-primary">Contact </a>
+                    <a href="#" class="btn btn-secondary">About </a>
+                  </div>
+        `   </div>
+        <div class="right">
+
+            
+            <div class="img-box">
+              <img src="archan.jpeg" alt="Archan's profile photo" class="hero-img" width="150">
+              <div class="shape shape-1"></div>
+              <div class="shape shape-2"></div>
+            </div>
+
+         </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="main">
+
+        <div class="container">
+
+        <!--Blog Section-->
+        <div class="blog">
+
+            <h2 class="h2">Latest Blog Post</h2>
+  
+            <div class="blog-card-group">
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="figma.jpg" alt="Making UIs using Figma"
+                    width="250" class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Designing</button>
+  
+                  <h3>
+                    <a href="#" class="h3">
+                      Building microservices with Dropwizard, MongoDB & Docker
+                    </a>
+                  </h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos.
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2022-01-17">Nov 06, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="adobexd.jpg" alt="Adobe XD" width="250"
+                    class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Adobe Xd</button>
+  
+                  <h3><a href="" class="h3">Software used for UI design industrially</a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos.
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2021-12-10">Dec 10, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT2M">2 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="css.png" alt="Accessibility Tips for Web Developers in CSS" width="250"
+                    class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Accessibility</button>
+  
+                  <h3><a href="" class="h3">Accessibility Tips for Web Developers in CSS</a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos.
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2021-11-28">Nov 28, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="js.jpg" alt="Important tips for JavaScript developers" 
+                    width="250" class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">FrontEnd</button>
+  
+                  <h3><a href="" class="h3">Important tips for JavaScript developers</a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2021-11-20">Nov 20, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="node.png"
+                    alt="Backend Developement through NodeJs" width="250"
+                    class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Web Performance</button>
+  
+                  <h3><a href="" class="h3">Backend Developement through NodeJs</a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2021-11-10">Dec 10, 2022</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT3M">3 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="express.jpg"
+                    alt="Fast,Unopinionated and Minimalist Backend Framework " width="250"
+                    class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Web Performance</button>
+  
+                  <h3><a href="" class="h3">Fast,Unopinionated and Minimalist Backend Framework</a>
+                  </h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2021-10-25">Dec 25, 2021</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="crud.png"
+                    alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
+                    class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Web Performance</button>
+  
+                  <h3><a href="" class="h3">Building a Restful CRUD API with Node JS, Express, and MongoDB</a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2023-01-15">Jan 15, 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="json.jpg" alt="Learning JSON as a Beginner" width="250"
+                    width="250" class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Web Performance</button>
+  
+                  <h3><a href="" class="h3">Learning JSON as a Beginner</a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2023-01-03">Jan 3, 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT5M">5 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="web-accessibility.jpg" alt="The best web accessibility tools for developers in 2021"
+                    width="250" class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">Accessibility</button>
+  
+                  <h3><a href="" class="h3">The best web accessibility tools for developers in 2021</a>
+                  </h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2023-02-13">Feb 13, 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT7M">7 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+  
+              <div class="blog-card">
+  
+                <div class="blog-card-banner">
+                  <img src="react.svg"
+                    alt="How to make a React frontend " width="250"
+                    class="blog-banner-img">
+                </div>
+  
+                <div class="blog-content-wrapper">
+  
+                  <button class="blog-topic text-tiny">FrontEnd</button>
+  
+                  <h3><a href="" class="h3">How to make a React frontend </a></h3>
+  
+                  <p class="blog-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates, quod, quia, voluptatibus quae voluptatem
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus tenetur, natus rem eaque nihil, quia explicabo doloremque deserunt, esse quod reprehenderit. Consectetur eum sit ut esse? Atque dolor totam dignissimos
+                  </p>
+  
+                  <div class="wrapper-flex">
+  
+                    <div class="profile-wrapper">
+                      <img src="archan.jpeg" alt="Archan Bose" width="50">
+                    </div>
+  
+                    <div class="wrapper">
+                      <a href="#" class="h4">Archan Bose</a>
+  
+                      <p class="text-sm">
+                        <time datetime="2021-09-21">Feb 28, 2023</time>
+                        <span class="separator"></span>
+                        <ion-icon name="time-outline"></ion-icon>
+                        <time datetime="PT4M">4 min</time>
+                      </p>
+                    </div>
+  
+                  </div>
+  
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            <button class="btn load-more">Load More</button>
+  
+          </div>
+
+          <!--ASIDE-->
+
+        <div class="aside">
+
+            <div class="topics">
+  
+              <h2 class="h2">Topics</h2>
+  
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="server-outline"></ion-icon>
+                </div>
+  
+                <p>Designing</p>
+              </a>
+  
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="accessibility-outline"></ion-icon>
+                </div>
+  
+                <p>Frontend</p>
+              </a>
+  
+              <a href="#" class="topic-btn">
+                <div class="icon-box">
+                  <ion-icon name="rocket-outline"></ion-icon>
+                </div>
+  
+                <p>Web Performance</p>
+              </a>
+  
+            </div>
+  
+            <div class="tags">
+  
+              <h2 class="h2">Tags</h2>
+  
+              <div class="wrapper">
+  
+                <button class="hashtag">#figma</button>
+                <button class="hashtag">#nodejs</button>
+                <button class="hashtag">#adobexd</button>
+                <button class="hashtag">#javascript</button>
+                <button class="hashtag">#webperformance</button>
+                <button class="hashtag">#crud</button>
+                <button class="hashtag">#react</button>
+                <button class="hashtag">#expressjs</button>
+  
+              </div>
+  
+            </div>
+  
+            <div class="contact">
+  
+              <h2 class="h2">Let's Talk</h2>
+  
+              <div class="wrapper">
+  
+                <p>
+                  Do you want to learn more about Designing and Web Developement? Let us have a
+                  conversation.
+                </p>
+  
+                <ul class="social-link">
+  
+                  <li>
+                    <a href="#" class="icon-box discord">
+                      <ion-icon name="logo-discord"></ion-icon>
+                    </a>
+                  </li>
+  
+                  <li>
+                    <a href="#" class="icon-box twitter">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+  
+                  <li>
+                    <a href="#" class="icon-box facebook">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+  
+                </ul>
+  
+              </div>
+  
+            </div>
+  
+            <div class="newsletter">
+  
+              <h2 class="h2">Newsletter</h2>
+  
+              <div class="wrapper">
+  
+                <p>
+                  Subscribe to our newsletter to be among the first to keep up with the latest updates.
+                </p>
+  
+                <form action="#">
+                  <input type="email" name="email" placeholder="Email Address" required>
+  
+                  <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+  
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </main>
+  
+  
+  
+  
+  
+    <!--
+      - #FOOTER
+    -->
+  
+    <footer>
+  
+      <div class="container">
+  
+        <div class="wrapper">
+  
+          <a href="#" class="footer-logo">
+            <img src="logo.svg" alt="Archan's Logo" width="150" class="logo-light">
+            <img src="logo.svg" alt="DevBlog's Logo" width="150" class="logo-dark">
+          </a>
+  
+          <p class="footer-text">
+            Learn about Designing, Web performance, and Frontend.
+          </p>
+  
+        </div>
+  
+        <div class="wrapper">
+  
+          <p class="footer-title">Quick Links</p>
+  
+          <ul>
+  
+            <li>
+              <a href="#" class="footer-link">Advertise with us</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">About Us</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Contact Us</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+        <div class="wrapper">
+  
+          <p class="footer-title">Legal Stuff</p>
+  
+          <ul>
+  
+            <li>
+              <a href="#" class="footer-link">Privacy Notice</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Cookie Policy</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-link">Terms Of Use</a>
+            </li>
+  
+          </ul>
+  
+        </div>
+  
+      </div>
+  
+      <p class="copyright">
+        &copy; Copyright 2022 <a href="#">ArchanBlog</a>
+      </p>
+  
+    </footer>
+  
+  
+  
+  
+    </div>
+
+</main>
+
+<!--Path to script.js-->
+
+    <script src="./script.js"></script>
+
+<!--ion icon link-->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
